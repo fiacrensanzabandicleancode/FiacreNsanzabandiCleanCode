@@ -1,16 +1,25 @@
-<div>
-  <ul class="nav nav-tabs">
+<nav class="navbar navbar-default">
+  <ul class="nav navbar-nav">
     <li routerLinkActive="active" class="nav-item">
-      <a routerLink="home">Home</a>
+      <a routerLink="home">{{ 'home' | translate }}</a>
     </li>
     <li routerLinkActive="active" class="nav-item">
-      <a routerLink="cv">CV</a>
+      <a routerLink="cv">{{ 'cv' | translate }}</a>
     </li>
     <li routerLinkActive="active" class="nav-item">
-      <a routerLink="personalProjects">Personal projects</a>
+      <a routerLink="personalProjects">{{ 'personalProjects' | translate }}</a>
     </li>
     <li routerLinkActive="active" class="nav-item">
-      <a routerLink="hobbies">Hobbies</a>
+      <a routerLink="hobbies">{{ 'hobbies' | translate }}</a>
     </li>
   </ul>
-</div>
+
+  <ul class="nav navbar-nav navbar-right">
+    <li>
+      <button class="btn btn-success my-2 my-sm-0" type="button" (click)="switchLanguage('fr')">FR</button>
+    </li>
+    <li>
+      <button class="btn btn-outline-success my-2 my-sm-0" type="button" (click)="switchLanguage('en')">EN</button>
+    </li>
+  </ul>
+</nav>

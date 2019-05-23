@@ -1,25 +1,30 @@
-<nav class="navbar navbar-default">
-  <ul class="nav navbar-nav">
-    <li routerLinkActive="active" class="nav-item">
-      <a routerLink="home">{{ 'home' | translate }}</a>
-    </li>
-    <li routerLinkActive="active" class="nav-item">
-      <a routerLink="cv">{{ 'cv' | translate }}</a>
-    </li>
-    <li routerLinkActive="active" class="nav-item">
-      <a routerLink="personalProjects">{{ 'personalProjects' | translate }}</a>
-    </li>
-    <li routerLinkActive="active" class="nav-item">
-      <a routerLink="hobbies">{{ 'hobbies' | translate }}</a>
-    </li>
-  </ul>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li routerLinkActive="active" class="nav-item">
+        <a routerLink="home">{{ 'home' | translate }}</a>
+      </li>
+      <li routerLinkActive="active" class="nav-item">
+        <a routerLink="cv">{{ 'cv' | translate }}</a>
+      </li>
+      <li routerLinkActive="active" class="nav-item">
+        <a routerLink="personalProjects">{{ 'personalProjects' | translate }}</a>
+      </li>
+      <li routerLinkActive="active" class="nav-item">
+        <a routerLink="hobbies">{{ 'hobbies' | translate }}</a>
+      </li>
+    </ul>
 
-  <ul class="nav navbar-nav navbar-right">
-    <li>
-      <button class="btn btn-success my-2 my-sm-0" type="button" (click)="switchLanguage('fr')">FR</button>
-    </li>
-    <li>
-      <button class="btn btn-outline-success my-2 my-sm-0" type="button" (click)="switchLanguage('en')">EN</button>
-    </li>
-  </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="nav-item">
+        <a routerLink="#" (click)="switchLanguage('en')">EN</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="#" (click)="switchLanguage('fr')">FR</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="#" (click)="switchLanguage('fr')">DE</a>
+      </li>
+    </ul>
+  </div>
 </nav>

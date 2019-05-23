@@ -19,8 +19,8 @@ const appRoutes: Routes = [
   { path: 'hobbies' , component: HobbiesComponent}
 ];
 
-export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http);
+export function HttpLoaderFactory(httpClient: HttpClient) {
+  return new TranslateHttpLoader(httpClient);
 }
 
 @NgModule({

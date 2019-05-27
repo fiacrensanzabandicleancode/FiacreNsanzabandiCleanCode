@@ -1,8 +1,10 @@
 {
     "home": "Accueil",
-    "cv": "CV",
+    "cv": "Curriculum vitae",
     "personalProjects": "Projets personnels",
     "hobbies": "Hobbies",
     "developmentProgress": "Développement en cours ...", 
-    "home.presentation": "Bienvenue sur ma home page.<br>Né au Burundi, passioné par mon métier et par d'autres choses .. <br>N'hésitez pas à naviguer sur cette application pour découvrir mon métier, mes passions et mes projets .. <br>"
+    "home.presentation": "Bienvenue sur ma home page.<br>Né au Burundi, passioné par mon métier et par d'autres choses .. <br>N'hésitez pas à naviguer sur cette application pour découvrir mon métier, mes passions et mes projets .. <br>",
+    "cv.skillsOverview": "Aperçu des compétences",
+    "cv.pdf": "Curriculum vitae"
 }

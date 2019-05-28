@@ -2,30 +2,30 @@
   <div class="container-fluid">
     <ul class="nav navbar-nav">
       <li routerLinkActive="active" class="nav-item">
-        <a routerLink="home">{{ 'home' | translate }}</a>
+        <a routerLink="home" (click)="setActualRoute('/home')">{{ 'home' | translate }}</a>
       </li>
       <li routerLinkActive="active" class="nav-item">
-        <a routerLink="cv">{{ 'cv' | translate }}</a>
+        <a routerLink="cv" (click)="setActualRoute('/cv')">{{ 'cv' | translate }}</a>
       </li>
       <li routerLinkActive="active" class="nav-item">
-        <a routerLink="personalProjects">{{ 'personalProjects' | translate }}</a>
+        <a routerLink="personalProjects" (click)="setActualRoute('/personalProject')">{{ 'personalProjects' | translate }}</a>
       </li>
       <li routerLinkActive="active" class="nav-item">
-        <a routerLink="hobbies">{{ 'hobbies' | translate }}</a>
+        <a routerLink="hobbies" (click)="setActualRoute('/hobbies')">{{ 'hobbies' | translate }}</a>
       </li>
     </ul>
 
     <ul class="nav navbar-nav navbar-right">
       <li class="nav-item">
-        <a routerLink="home" (click)="switchLanguage('en')">EN</a>
+        <a [routerLink]="actualRoute" (click)="switchLanguage('en')">EN</a>
         <!-- TODO: Improve this part to get the current root -->
       </li>
       <li class="nav-item">
-        <a routerLink="home" (click)="switchLanguage('fr')">FR</a>
+        <a [routerLink]="actualRoute" (click)="switchLanguage('fr')">FR</a>
         <!-- TODO: Improve this part to get the current root -->
       </li>
       <li class="nav-item">
-        <a routerLink="home" (click)="switchLanguage('de')">DE</a>
+        <a [routerLink]="actualRoute" (click)="switchLanguage('de')">DE</a>
         <!-- TODO: Improve this part to get the current root -->
       </li>
     </ul>

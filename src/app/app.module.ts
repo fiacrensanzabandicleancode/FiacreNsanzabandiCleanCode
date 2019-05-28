@@ -14,10 +14,12 @@ import { PersonalProjectsComponent } from './personal-projects/personal-projects
 import { HobbiesComponent } from './hobbies/hobbies.component';
 
 const appRoutes: Routes = [
-  { path: 'home' , component: HomeComponent},
-  { path: 'cv' , component: CvComponent},
-  { path: 'personalProjects' , component: PersonalProjectsComponent},
-  { path: 'hobbies' , component: HobbiesComponent}
+  { path: '' , component: HomeComponent },
+  { path: 'home' , component: HomeComponent },
+  { path: 'cv' , component: CvComponent },
+  { path: 'personalProjects' , component: PersonalProjectsComponent },
+  { path: 'hobbies' , component: HobbiesComponent },
+  { path: '**' , component: HomeComponent }
 ];
 
 export function HttpLoaderFactory(httpClient: HttpClient) {

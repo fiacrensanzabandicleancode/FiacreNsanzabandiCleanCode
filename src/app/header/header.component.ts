@@ -8,8 +8,10 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class HeaderComponent implements OnInit {
 
+  actualRouteto : string = "/home";
+
   constructor(private translateService: TranslateService) {
-    translateService.setDefaultLang('fr');
+    translateService.setDefaultLang('de');
   }
 
   /**
@@ -23,4 +25,11 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
+  /**
+   * Sets the actual root.
+   * @param actualRoute
+   */
+  setActualRoute(actualRoutete: string) {
+    this.actualRouteto = actualRoutete;
+  }
 }

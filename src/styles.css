@@ -2,3 +2,7 @@
     font-size: 200%;
     color: maroon;
 }
+
+#generalBackgroundImage {
+    background-image: url(./assets/images/fiacreNsanzabandiBotheImage.jpg);
+}

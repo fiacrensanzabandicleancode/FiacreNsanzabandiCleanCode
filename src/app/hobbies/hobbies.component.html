@@ -1,24 +1,29 @@
-<p>
-  {{ 'developmentProgress' | translate }}
-</p>
-
 <ul class="list-group">
-    <li class="list-group-item">
-      <span class="list-content-title">Music</span>
-      <p>
-        I'm an amator musician and have some written tests that I would like to produce.
-      </p>
-    </li>
-    <li class="list-group-item">
-      <span class="list-content-title">Sport</span>
-      <p>
-        My prefered sport is basket ball. I do other sports as well: Crossfit, running, swimming, bicking, football and so on. I love the idea of crossfit that says that "to do every sport that you are given, is good for health.".
-      </p>
-    </li>
-    <li class="list-group-item">
-      <span class="list-content-title">Gardening</span>
-      <p>
-        Since I saw the movie: "Demain" by Cyril Dion and Mélanie Laurent, I think that agriculture is the key for the survivor of the humanity. So I'm training my self and keep a garden at home.
-      </p>
-    </li>
-  </ul>
+  <li class="list-group-item">
+    <span class="list-content-title">{{ 'hobbies.music' | translate }}</span>
+    <p>
+      {{ 'hobbies.music.description' | translate }}
+    </p>
+    <p>
+      {{ 'developmentProgress' | translate }}
+    </p>
+  </li>
+  <li class="list-group-item">
+    <span class="list-content-title">{{ 'hobbies.sport' | translate }}</span>
+    <p>
+      {{ 'hobbies.sport.description' | translate }}
+    </p>
+    <p>
+      {{ 'developmentProgress' | translate }}
+    </p>
+  </li>
+  <li class="list-group-item">
+    <span class="list-content-title">{{ 'hobbies.gardening' | translate }}</span>
+    <p>
+      {{ 'hobbies.gardening.description' | translate }}
+    </p>
+    <p>
+      {{ 'developmentProgress' | translate }}
+    </p>
+  </li>
+</ul>

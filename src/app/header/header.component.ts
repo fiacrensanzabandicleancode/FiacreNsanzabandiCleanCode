@@ -8,7 +8,7 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class HeaderComponent implements OnInit {
 
-  actualRouteto : string = "/home";
+  actualRoute : string = "/home";
 
   constructor(private translateService: TranslateService) {
     translateService.setDefaultLang('de');
@@ -29,7 +29,7 @@ export class HeaderComponent implements OnInit {
    * Sets the actual root.
    * @param actualRoute
    */
-  setActualRoute(actualRoutete: string) {
-    this.actualRouteto = actualRoutete;
+  setActualRoute(actualRoute: string) {
+    this.actualRoute = actualRoute;
   }
 }

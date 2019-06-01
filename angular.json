@@ -56,6 +56,30 @@
                   "maximumError": "5mb"
                 }
               ]
+            },
+            "fr": {
+              "aot": true,
+              "outputPath": "FiacreNsanzabandiCleanCode/assets/i18n/",
+              "i18nFile": "src/assets/i18n/fr.json",
+              "i18nFormat": "json",
+              "i18nLocale": "fr",
+              "i18nMissingTranslation": "error"
+            },
+            "de": {
+              "aot": true,
+              "outputPath": "FiacreNsanzabandiCleanCode/assets/i18n/",
+              "i18nFile": "src/assets/i18n/de.json",
+              "i18nFormat": "json",
+              "i18nLocale": "de",
+              "i18nMissingTranslation": "error"
+            },
+            "en": {
+              "aot": true,
+              "outputPath": "FiacreNsanzabandiCleanCode/assets/i18n/",
+              "i18nFile": "src/assets/i18n/en.json",
+              "i18nFormat": "json",
+              "i18nLocale": "en",
+              "i18nMissingTranslation": "error"
             }
           }
         },

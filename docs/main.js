@@ -125,7 +125,7 @@ var appRoutes = [
     { path: '**', component: _home_home_component__WEBPACK_IMPORTED_MODULE_10__["HomeComponent"] }
 ];
 function HttpLoaderFactory(httpClient) {
-    return new _ngx_translate_http_loader__WEBPACK_IMPORTED_MODULE_6__["TranslateHttpLoader"](httpClient);
+    return new _ngx_translate_http_loader__WEBPACK_IMPORTED_MODULE_6__["TranslateHttpLoader"](httpClient, './assets/i18n/', '.json');
 }
 var AppModule = /** @class */ (function () {
     function AppModule() {

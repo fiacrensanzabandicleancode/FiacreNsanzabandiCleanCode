@@ -1,46 +1,33 @@
-<ul class="list-group">
-  <li class="list-group-item">
-    <span class="list-content-title">{{ 'cv.skillsOverview' | translate }}</span>
-    <div>
-      <img class="img-responsive" src="assets/images/skills.jpg" alt="Fiacre Nsanzabandi skills overview">
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title list-content-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">{{ 'cv.skillsOverview' | translate }}</a>
+      </h4>
     </div>
-  </li>
-  <li class="list-group-item">
-    <span class="list-content-title">{{ 'cv.pdf' | translate }}</span>
-    <div>
-      <pdf-viewer src="assets/files/fiacreNsanzabandiCV.pdf">
-      </pdf-viewer>
-    </div>
-  </li>
-</ul>
-
-<!-- <div id="accordion">
-  // TODO
-  <div class="card">
-    <div class="card-header">
-      <a class="card-link" data-toggle="collapse" href="#skillsOverview">
-          {{ 'cv.skillsOverView' | translate }}
-      </a>
-    </div>
-    <div id="skillsOverview" class="collapse show" data-parent="#accordion">
-      <div class="card-body">
-          <img class="img-responsive img-thumbnail" src="assets/images/skills.jpg"
-          alt="fiacreNsanzabandiProfilePicture">
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">
+        <img class="img-responsive" src="assets/images/skills.jpg" alt="Fiacre Nsanzabandi skills overview">
       </div>
     </div>
   </div>
-  <div class="card">
-    <div class="card-header">
-      <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
-        {{ 'cv.pdf' | translate }}
-      </a>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title list-content-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">{{ 'cv.pdf' | translate }}</a>
+      </h4>
     </div>
-    <div id="collapseTwo" class="collapse" data-parent="#accordion">
-      <div class="card-body">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat.
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="text-center">
+        <div class="btn-group btn-group-lg">
+          <button type="button" class="btn btn-primary" (click)="setCvPdfUrl()">{{ 'cv.pdf.show.button.text' | translate }}</button>
+          <button type="button" class="btn btn-primary">{{ 'cv.pdf.download.message' | translate }}</button>
+        </div>
       </div>
     </div>
   </div>
-</div> -->
+</div>
+<div>
+  <pdf-viewer [src]="cvPdfUrl">
+  </pdf-viewer>
+</div>

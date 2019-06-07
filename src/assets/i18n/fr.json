@@ -7,6 +7,8 @@
     "home.presentation": "Bienvenue sur ma home page.<br>Né au Burundi, passioné par mon métier et par d'autres choses .. <br>Je vous invite à naviguer sur cette application pour découvrir mon métier, mes passions et mes projets .. <br>",
     "cv.skillsOverview": "Aperçu de mes compétences",
     "cv.pdf": "Curriculum vitae",
+    "cv.pdf.show.button.text": "Afficher le PDF",
+    "cv.pdf.download.message": "Téléchargement bientôt disponible",
     "hobbies.music": "Musique",
     "hobbies.sport": "Sport",
     "hobbies.gardening": "Jardinage",

@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CvComponent implements OnInit {
 
+  cvPdfUrl: string;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  setCvPdfUrl() {
+    this.cvPdfUrl = "assets/files/fiacreNsanzabandiCV.pdf";
   }
 
 }

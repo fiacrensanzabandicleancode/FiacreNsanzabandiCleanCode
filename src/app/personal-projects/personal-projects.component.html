@@ -1,29 +1,53 @@
-<ul class="list-group">
-  <li class="list-group-item">
-    <span class="list-content-title">NdikoNdaklinkoda</span>
-    <p>
-      Budget: 10 euros
-    </p>
-    <p>
-      {{ 'developmentProgress' | translate }}
-    </p>
-  </li>
-  <li class="list-group-item">
-    <span class="list-content-title">KubahoNezaResidence</span>
-    <p>
-      Budget: 10 euros
-    </p>
-    <p>
-      {{ 'developmentProgress' | translate }}
-    </p>
-  </li>
-  <li class="list-group-item">
-    <span class="list-content-title">YCEA green</span>
-    <p>
-      Budget: 10 euros
-    </p>
-    <p>
-      {{ 'developmentProgress' | translate }}
-    </p>
-  </li>
-</ul>
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title list-content-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">NdikoNdaklinkoda</a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">
+        <p>
+          Budget: 10 euros
+        </p>
+        <p>
+          {{ 'developmentProgress' | translate }}
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title list-content-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">KubahoNezaResidence</a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">
+        <p>
+          Budget: 10 euros
+        </p>
+        <p>
+          {{ 'developmentProgress' | translate }}
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title list-content-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">YCEA green</a>
+      </h4>
+    </div>
+    <div id="collapse4" class="panel-collapse collapse">
+      <div class="panel-body">
+        <p>
+          Budget: 10 euros
+        </p>
+        <p>
+          {{ 'developmentProgress' | translate }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

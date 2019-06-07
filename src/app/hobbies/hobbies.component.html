@@ -1,29 +1,53 @@
-<ul class="list-group">
-  <li class="list-group-item">
-    <span class="list-content-title">{{ 'hobbies.music' | translate }}</span>
-    <p>
-      {{ 'hobbies.music.description' | translate }}
-    </p>
-    <p>
-      {{ 'developmentProgress' | translate }}
-    </p>
-  </li>
-  <li class="list-group-item">
-    <span class="list-content-title">{{ 'hobbies.sport' | translate }}</span>
-    <p>
-      {{ 'hobbies.sport.description' | translate }}
-    </p>
-    <p>
-      {{ 'developmentProgress' | translate }}
-    </p>
-  </li>
-  <li class="list-group-item">
-    <span class="list-content-title">{{ 'hobbies.gardening' | translate }}</span>
-    <p>
-      {{ 'hobbies.gardening.description' | translate }}
-    </p>
-    <p>
-      {{ 'developmentProgress' | translate }}
-    </p>
-  </li>
-</ul>
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title list-content-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">{{ 'hobbies.music' | translate }}</a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">
+        <p>
+          {{ 'hobbies.music.description' | translate }}
+        </p>
+        <p>
+          {{ 'developmentProgress' | translate }}
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title list-content-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">{{ 'hobbies.sport' | translate }}</a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">
+        <p>
+          {{ 'hobbies.sport.description' | translate }}
+        </p>
+        <p>
+          {{ 'developmentProgress' | translate }}
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title list-content-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">{{ 'hobbies.gardening' | translate }}</a>
+      </h4>
+    </div>
+    <div id="collapse4" class="panel-collapse collapse">
+      <div class="panel-body">
+        <p>
+          {{ 'hobbies.gardening.description' | translate }}
+        </p>
+        <p>
+          {{ 'developmentProgress' | translate }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

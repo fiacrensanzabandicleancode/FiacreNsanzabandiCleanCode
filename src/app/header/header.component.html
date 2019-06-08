@@ -17,13 +17,19 @@
 
     <ul class="nav navbar-nav navbar-right">
       <li class="nav-item">
-        <a [routerLink]="actualRoute" (click)="switchLanguage('en')">EN</a>
+        <a [routerLink]="actualRoute" (click)="switchLanguage('en')">
+            <span class="flag-icon flag-icon-gb"></span>
+        </a>
       </li>
       <li class="nav-item">
-        <a [routerLink]="actualRoute" (click)="switchLanguage('fr')">FR</a>
+        <a [routerLink]="actualRoute" (click)="switchLanguage('fr')">
+            <span class="flag-icon flag-icon-fr"></span>
+        </a>
       </li>
       <li class="nav-item">
-        <a [routerLink]="actualRoute" (click)="switchLanguage('de')">DE</a>
+        <a [routerLink]="actualRoute" (click)="switchLanguage('de')">
+          <span class="flag-icon flag-icon-de"></span>
+        </a>
       </li>
     </ul>
   </div>

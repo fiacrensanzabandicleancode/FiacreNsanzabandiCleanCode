@@ -9,6 +9,7 @@ export class CvComponent implements OnInit {
 
   cvPdfUrl: string = "";
   isPdfVisible: boolean = false;
+  isDownloadMessageVisible: boolean = false;
 
   constructor() { }
 
@@ -27,6 +28,14 @@ export class CvComponent implements OnInit {
 
   deleteCvPdfUrl() {
     this.isPdfVisible = false;
+  }
+
+  /**
+   * Show the CV PDF download message.
+   * @author fnsanzabandi
+   */
+  showCvPdfDownloadMessage() {
+    this.isDownloadMessageVisible = true;
   }
 
 }

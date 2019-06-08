@@ -25,10 +25,13 @@
     <div id="collapse3" class="panel-collapse collapse">
       <div class="text-center">
         <div class="btn-group btn-group-lg">
-          <button type="button" class="btn btn-primary">
+          <button type="button" class="btn btn-primary" (click)="showCvPdfDownloadMessage()">
             <span class="glyphicon glyphicon-cloud-download"></span>
-            {{ 'cv.pdf.download.message' | translate }}
+            {{ 'cv.pdf.download' | translate }}
           </button>
+        </div>
+        <div class="download-pdf-error-message" *ngIf="isDownloadMessageVisible">
+          {{ 'cv.pdf.download.message' | translate }}
         </div>
       </div>
     </div>

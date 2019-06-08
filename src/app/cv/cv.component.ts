@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CvComponent implements OnInit {
 
-  cvPdfUrl: string;
+  cvPdfUrl: string = "";
+  isPdfVisible: boolean = false;
+  isDownloadMessageVisible: boolean = false;
 
   constructor() { }
 
@@ -15,7 +17,25 @@ export class CvComponent implements OnInit {
   }
 
   setCvPdfUrl() {
-    this.cvPdfUrl = "assets/files/fiacreNsanzabandiCV.pdf";
+    if (this.cvPdfUrl == "") {
+      this.isPdfVisible = true;
+      this.cvPdfUrl = "assets/files/fiacreNsanzabandiCV.pdf";
+    } else {
+      this.isPdfVisible = false;
+      this.cvPdfUrl = "";
+    }
+  }
+
+  deleteCvPdfUrl() {
+    this.isPdfVisible = false;
+  }
+
+  /**
+   * Show the CV PDF download message.
+   * @author fnsanzabandi
+   */
+  showCvPdfDownloadMessage() {
+    this.isDownloadMessageVisible = true;
   }
 
 }

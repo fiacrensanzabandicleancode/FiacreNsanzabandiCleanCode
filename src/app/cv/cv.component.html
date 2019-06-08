@@ -2,8 +2,9 @@
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title list-content-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">{{ 'cv.skillsOverview' | translate }}
-          <span class="glyphicon glyphicon-hand-left"></span>
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+          <span class="glyphicon glyphicon-hand-right"></span>
+          {{ 'cv.skillsOverview' | translate }}
         </a>
       </h4>
     </div>
@@ -17,8 +18,9 @@
     <div class="panel-heading">
       <h4 class="panel-title list-content-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"
-          (click)="setCvPdfUrl()">{{ 'cv.pdf' | translate }}
-          <span class="glyphicon glyphicon-hand-left"></span>
+          (click)="setCvPdfUrl()">
+          <span class="glyphicon glyphicon-hand-right"></span>
+          {{ 'cv.pdf' | translate }}
         </a>
       </h4>
     </div>
@@ -38,6 +40,5 @@
   </div>
 </div>
 <div *ngIf="isPdfVisible">
-  <pdf-viewer [src]="cvPdfUrl">
-  </pdf-viewer>
+    <pdf-viewer [src]="cvPdfUrl"></pdf-viewer>
 </div>

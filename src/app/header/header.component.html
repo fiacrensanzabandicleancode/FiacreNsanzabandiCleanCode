@@ -1,29 +1,35 @@
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <ul class="nav navbar-nav">
-      <li routerLinkActive="active" class="nav-item">
-        <a routerLink="home" (click)="setActualRoute('/home')">{{ 'home' | translate }}</a>
-      </li>
-      <li routerLinkActive="active" class="nav-item">
-        <a routerLink="cv" (click)="setActualRoute('/cv')">{{ 'cv' | translate }}</a>
-      </li>
-      <li routerLinkActive="active" class="nav-item">
-        <a routerLink="personalProjects" (click)="setActualRoute('/personalProjects')">{{ 'personalProjects' | translate }}</a>
-      </li>
-      <li routerLinkActive="active" class="nav-item">
-        <a routerLink="hobbies" (click)="setActualRoute('/hobbies')">{{ 'hobbies' | translate }}</a>
-      </li>
-    </ul>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" routerLink="home" (click)="setActualRoute('/home')">Fiacre NSANZABANDI</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    <ul class="nav navbar-nav navbar-right">
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li routerLinkActive="active" class="nav-item">
+            <a class="nav-link" routerLink="home" (click)="setActualRoute('/home')">{{ 'home' | translate }}</a>
+          </li>
+          <li routerLinkActive="active" class="nav-item">
+            <a class="nav-link" routerLink="cv" (click)="setActualRoute('/cv')">{{ 'cv' | translate }}</a>
+          </li>
+          <li routerLinkActive="active" class="nav-item">
+            <a class="nav-link" routerLink="personalProjects"
+              (click)="setActualRoute('/personalProjects')">{{ 'personalProjects' | translate }}</a>
+          </li>
+          <li routerLinkActive="active" class="nav-item">
+            <a class="nav-link" routerLink="hobbies" (click)="setActualRoute('/hobbies')">{{ 'hobbies' | translate }}</a>
+          </li>
+    </ul>
+    <ul class="nav">
       <li class="nav-item">
         <a [routerLink]="actualRoute" (click)="switchLanguage('en')">
-            <span class="flag-icon flag-icon-gb"></span>
+          <span class="flag-icon flag-icon-gb"></span>
         </a>
       </li>
       <li class="nav-item">
         <a [routerLink]="actualRoute" (click)="switchLanguage('fr')">
-            <span class="flag-icon flag-icon-fr"></span>
+          <span class="flag-icon flag-icon-fr"></span>
         </a>
       </li>
       <li class="nav-item">

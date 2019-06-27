@@ -1,15 +1,15 @@
-<div class="panel-group" id="accordion">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title list-content-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-          <span class="glyphicon glyphicon-hand-right"></span>
-          NdikoNdaklinkoda
-        </a>
-      </h4>
+<div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header btn row" id="headingOne" data-toggle="collapse" data-target="#collapseOne"
+      aria-expanded="true" aria-controls="collapseOne">
+      <div class="row">
+        <div class="text-justify col list-content-title">NdikoNdaklinkoda</div>
+        <div class="text-right col list-content-title">></div>
+      </div>
     </div>
-    <div id="collapse2" class="panel-collapse collapse">
-      <div class="panel-body">
+
+    <div id="collapseOne" class="collapse show" arialabelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
         <p>
           {{ 'personalProject.description' | translate }}:
           {{ 'personalProject.description.ndiko.ndaklinkoda' | translate  }}
@@ -23,17 +23,16 @@
       </div>
     </div>
   </div>
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title list-content-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-          <span class="glyphicon glyphicon-hand-right"></span>
-          KubahoNezaResidence
-        </a>
-      </h4>
+  <div class="card">
+    <div class="card-header btn row" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo"
+      aria-expanded="true" aria-controls="collapseTwo" (click)="setCvPdfUrl()">
+      <div class="row">
+        <div class="text-justify col list-content-title">KubahoNezaResidence</div>
+        <div class="text-right col list-content-title">></div>
+      </div>
     </div>
-    <div id="collapse3" class="panel-collapse collapse">
-      <div class="panel-body">
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
         <p>
           {{ 'personalProject.description' | translate }}:
           {{ 'personalProject.description.kubaho.neza.residence' | translate  }}
@@ -47,17 +46,16 @@
       </div>
     </div>
   </div>
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title list-content-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
-          <span class="glyphicon glyphicon-hand-right"></span>
-          YCEA green
-        </a>
-      </h4>
+  <div class="card">
+    <div class="card-header btn row" id="headingThree" data-toggle="collapse" data-target="#collapseThree"
+      aria-expanded="true" aria-controls="collapseThree" (click)="setCvPdfUrl()">
+      <div class="row">
+        <div class="text-justify col list-content-title">YCEA green</div>
+        <div class="text-right col list-content-title">></div>
+      </div>
     </div>
-    <div id="collapse4" class="panel-collapse collapse">
-      <div class="panel-body">
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
         <p>
           {{ 'personalProject.description' | translate }}:
           {{ 'personalProject.description.ycea.green' | translate  }}

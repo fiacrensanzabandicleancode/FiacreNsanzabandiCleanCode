@@ -1,12 +1,12 @@
 <div class="accordion" id="accordionExample">
   <div class="card">
-    <div class="card-header btn row" id="headingOne" data-toggle="collapse" data-target="#collapseOne"
-      aria-expanded="true" aria-controls="collapseOne">
+    <div class="card-header btn row list-content-title" id="headingOne" data-toggle="collapse"
+      data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
       <div class="row">
-        <div class="text-justify col list-content-title">
+        <div class="text-justify col">
           {{ 'cv.skillsOverview' | translate }}
         </div>
-        <div class="text-right col list-content-title">
+        <div class="text-right col">
           <fa name="angle-double-down" animation="spin"></fa>
           <fa name="angle-double-up"></fa>
         </div>
@@ -20,11 +20,11 @@
     </div>
   </div>
   <div class="card">
-    <div class="card-header btn row" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo"
+    <div class="card-header btn row list-content-title" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo"
       aria-expanded="true" aria-controls="collapseTwo" (click)="setCvPdfUrl()">
       <div class="row">
-        <div class="text-justify col list-content-title">{{ 'cv.pdf' | translate }}</div>
-        <div class="text-right col list-content-title">
+        <div class="text-justify col">{{ 'cv.pdf' | translate }}</div>
+        <div class="text-right col">
           <fa name="angle-double-down" animation="spin"></fa>
           <fa name="angle-double-up"></fa>
         </div>

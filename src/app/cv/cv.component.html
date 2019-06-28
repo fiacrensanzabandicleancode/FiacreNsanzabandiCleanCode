@@ -3,8 +3,13 @@
     <div class="card-header btn row" id="headingOne" data-toggle="collapse" data-target="#collapseOne"
       aria-expanded="true" aria-controls="collapseOne">
       <div class="row">
-        <div class="text-justify col list-content-title">{{ 'cv.skillsOverview' | translate }}</div>
-        <div class="text-right col list-content-title">></div>
+        <div class="text-justify col list-content-title">
+          {{ 'cv.skillsOverview' | translate }}
+        </div>
+        <div class="text-right col list-content-title">
+          <fa name="angle-double-down" animation="spin"></fa>
+          <fa name="angle-double-up"></fa>
+        </div>
       </div>
     </div>
 
@@ -19,26 +24,21 @@
       aria-expanded="true" aria-controls="collapseTwo" (click)="setCvPdfUrl()">
       <div class="row">
         <div class="text-justify col list-content-title">{{ 'cv.pdf' | translate }}</div>
-        <div class="text-right col list-content-title">></div>
-      </div>
-    </div>
-    <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
-      <div class="card-body">
-        <div class="text-center">
-          <div class="btn-group btn-group-lg">
-            <button type="button" class="btn btn-primary" (click)="showCvPdfDownloadMessage()">
-              <span class="glyphicon glyphicon-cloud-download"></span>
-              {{ 'cv.pdf.download' | translate }}
-            </button>
-          </div>
-          <div class="download-pdf-error-message" *ngIf="isDownloadMessageVisible">
-            {{ 'cv.pdf.download.message' | translate }}
-          </div>
+        <div class="text-right col list-content-title">
+          <fa name="angle-double-down" animation="spin"></fa>
+          <fa name="angle-double-up"></fa>
         </div>
       </div>
     </div>
+    <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+    </div>
   </div>
 </div>
-<div *ngIf="isPdfVisible">
+<div *ngIf="isPdfVisible" class="text-center">
+  <br>
+  <a [href]="'assets/files/fiacreNsanzabandiCV.pdf'" class="btn btn-primary" role="button">
+    <fa name="cloud-download"></fa>
+    {{ 'cv.pdf.download' | translate }}
+  </a>
   <pdf-viewer [src]="cvPdfUrl"></pdf-viewer>
 </div>

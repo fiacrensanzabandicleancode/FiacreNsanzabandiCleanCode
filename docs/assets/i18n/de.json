@@ -4,22 +4,26 @@
     "personalProjects": "Persönliche Projekte",
     "hobbies": "Hobbys",
     "developmentProgress": "Entwicklung läuft ...",
-    "home.presentation": "Willkommen auf meiner Homepage.<br>Geboren in Burundi, leidenschaftlich über meinen Job und andere Dinge.<br>Surfen Sie in dieser app und entdecken Sie meinen Job, meine Leidenschaften und meine Projekte.",
-    "cv.skillsOverview": "Mein Fähigkeiten Übersicht",
+    
+    "home.presentation": "Willkommen auf meiner Homepage.<br>Geboren in Burundi, fasziniert an meinem Job und anderen Dingen.<br>Surfen Sie auf dieser Seite und entdecken Sie meinen Job, meine Leidenschaften und meine Projekte.",
+    
+    "cv.skillsOverview": "Übersicht meiner Fähigkeiten",
     "cv.pdf": "Lebenslauf",
     "cv.pdf.show.button.text": "PDF anzeigen",
     "cv.pdf.download": "Download",
     "cv.pdf.download.message": "In Entwicklung. Bald verfügbar.",
+    
     "personalProject.budget": "Haushalt",
     "personalProject.euros": "Euro",
     "personalProject.description": "Beschreibung",
-    "personalProject.description.ndiko.ndaklinkoda": "Dieses Projekt ist ein philanthropisches Projekt für Burundi. Sie werden mehr Informationnen darüber bald haben.",
-    "personalProject.description.kubaho.neza.residence": "Dieses Projekt ist ein philanthropisches Projekt für Burundi. Sie werden mehr Informationnen darüber bald haben",
+    "personalProject.description.ndiko.ndaklinkoda": "Dieses Projekt ist ein wohltätiges Projekt für Burundi. Sie werden hier bald mehr Informationen sehen.",
+    "personalProject.description.kubaho.neza.residence": "Dieses Projekt ist ein wohltätiges Projekt für Burundi. Sie werden hier bald mehr Informationen sehen.",
     "personalProject.description.ycea.green": "Ich bin ein führender Entwickler der Website dieses Vereins, zu dem ich gehöre. Wenn Sie mehr wissen möchten, besuchen Sie unsere Website https://ycea-green.site.",
+    
     "hobbies.music": "Musik",
     "hobbies.sport": "Sport",
     "hobbies.gardening": "Gartenarbeit",
-    "hobbies.music.description": "Ich bin ein Amateurmusiker und habe einige geschriebene Texte, die ich gerne produzieren würde.",
-    "hobbies.sport.description": "Meine Lieblingssportart ist Basketball und ich treibe auch andere Sportarten: Crossfit, Laufen, Schwimmen, Fahrrad fahren, Fußball usw. Ich mag diese Idee, die besagt \"Jede Sportart, die Sie kennenlernen, ist gut für Ihre Gesundheit.\"",
-    "hobbies.gardening.description": "Seit ich den Film \"Demain\" von Cyril Dion und Mélanie Laurent gesehen habe, denke ich, dass die Landwirtschaft der Schlüssel zum Überleben der Menschheit ist. Also übe ich zu Hause Gartenarbeit."
+    "hobbies.music.description": "Ich bin ein Amateurmusiker und habe einige geschriebene Texte, die ich gerne produzieren möchte.",
+    "hobbies.sport.description": "Meine Lieblingssportart ist Basketball und ich mache auch andere Sportarten: Crossfit, Laufen, Schwimmen, Fahrrad fahren, Fußball usw. Ich mag die Idee, die besagt: \"Jede Sportart, die man kennenlernt, ist gut für die Gesundheit.\"",
+    "hobbies.gardening.description": "Seit ich den Film \"Demain\" von Cyril Dion und Mélanie Laurent gesehen habe, denke ich, dass die Landwirtschaft der Schlüssel zum Überleben der Menschheit ist. Also mache ich zuhause Gartenarbeit."
 }

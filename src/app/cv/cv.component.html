@@ -1,44 +1,21 @@
-<div class="accordion" id="accordionExample">
-  <div class="card">
-    <div class="card-header btn row list-content-title" id="headingOne" data-toggle="collapse"
-      data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-      <div class="row">
-        <div class="text-justify col">
-          {{ 'cv.skillsOverview' | translate }}
-        </div>
-        <div class="text-right col">
-          <fa name="angle-double-down" animation="spin"></fa>
-          <fa name="angle-double-up"></fa>
-        </div>
-      </div>
-    </div>
-
-    <div id="collapseOne" class="collapse show" arialabelledby="headingOne" data-parent="#accordionExample">
-      <div class="card-body">
-        <img class="irounded img-fluid" src="assets/images/skills.jpg" alt="Fiacre Nsanzabandi skills overview">
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header btn row list-content-title" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo"
-      aria-expanded="true" aria-controls="collapseTwo" (click)="setCvPdfUrl()">
-      <div class="row">
-        <div class="text-justify col">{{ 'cv.pdf' | translate }}</div>
-        <div class="text-right col">
-          <fa name="angle-double-down" animation="spin"></fa>
-          <fa name="angle-double-up"></fa>
-        </div>
-      </div>
-    </div>
-    <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
-    </div>
-  </div>
-</div>
-<div *ngIf="isPdfVisible" class="text-center">
+<div>
   <br>
-  <a [href]="'assets/files/fiacreNsanzabandiCV.pdf'" class="btn btn-primary" role="button">
-    <fa name="cloud-download"></fa>
-    {{ 'cv.pdf.download' | translate }}
-  </a>
-  <pdf-viewer [src]="cvPdfUrl"></pdf-viewer>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title list-content-title">{{ 'cv.skillsOverview' | translate }}</h5>
+      <img class="irounded img-fluid" src="assets/images/skills.jpg" alt="Fiacre Nsanzabandi skills overview">
+    </div>
+  </div>
+  <br>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title list-content-title">{{ 'cv.pdf' | translate }}</h5>
+      <pdf-viewer [src]="cvPdfUrl"></pdf-viewer>
+      <a [href]="'assets/files/fiacreNsanzabandiCV.pdf'" class="btn btn-primary" role="button">
+        <fa name="cloud-download"></fa>
+        {{ 'cv.pdf.download' | translate }}
+      </a>
+    </div>
+  </div>
 </div>
+<br>

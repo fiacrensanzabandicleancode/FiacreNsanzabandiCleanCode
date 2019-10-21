@@ -4,18 +4,24 @@
     "personalProjects": "Projets personnels",
     "hobbies": "Hobbies",
     "developmentProgress": "Développement en cours ...", 
+
     "home.presentation": "Bienvenue sur ma home page.<br>Né au Burundi, passioné par mon métier et par d'autres choses .. <br>Je vous invite à naviguer sur cette application pour découvrir mon métier, mes passions et mes projets .. <br>",
+    
     "cv.skillsOverview": "Aperçu de mes compétences",
     "cv.pdf": "Curriculum vitae",
     "cv.pdf.show.button.text": "Afficher le PDF",
     "cv.pdf.download": "Télécharger",
     "cv.pdf.download.message": "En cours de développement. Bientôt disponible.",
+    
     "personalProject.budget": "Budget",
     "personalProject.euros": "euros",
     "personalProject.description": "Description",
     "personalProject.description.ndiko.ndaklinkoda": "Ce projet est un projet philanthrope pour le Burundi qui me tient à cœur et que je suis en train de développer. Vous en saurez plus bientôt.",
     "personalProject.description.kubaho.neza.residence": "Ce projet est un projet philanthrope pour le Burundi qui me tient à cœur que je suis en train de développer. Vous en saurez plus bientôt.",
-    "personalProject.description.ycea.green": "Je suis techlead développeur du site de cette association dont je fais partie. Si vous voulez en savoir plus, n’hésitez pas à visiter notre site https://ycea-green.site.",
+    "personalProject.description.ycea.green.1": "Je suis techlead développeur du site de cette association dont je fais partie. Si vous voulez en savoir plus, n’hésitez pas à visiter notre site ",
+    "personalProject.description.ycea.green.2.site": "https://ycea-green.site",
+    "personalProject.description.ycea.green.3": ".",
+
     "hobbies.music": "Musique",
     "hobbies.sport": "Sport",
     "hobbies.gardening": "Jardinage",

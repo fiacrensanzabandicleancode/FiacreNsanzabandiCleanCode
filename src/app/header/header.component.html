@@ -22,20 +22,15 @@
           </li>
     </ul>
     <ul class="navbar-nav">
-      <li class="nav-item">
-        <a [routerLink]="actualRoute" (click)="switchLanguage('en')">
-          <span class="flag-icon flag-icon-gb"></span>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          {{ actualLanguage }}
         </a>
-      </li>
-      <li class="nav-item">
-        <a [routerLink]="actualRoute" (click)="switchLanguage('fr')">
-          <span class="flag-icon flag-icon-fr"></span>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a [routerLink]="actualRoute" (click)="switchLanguage('de')">
-          <span class="flag-icon flag-icon-de"></span>
-        </a>
+        <div class="dropdown-menu languageDiv" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" [routerLink]="actualRoute" (click)="switchLanguage('en')">English</a>
+          <a class="dropdown-item" [routerLink]="actualRoute" (click)="switchLanguage('fr')">Français</a>
+          <a class="dropdown-item" [routerLink]="actualRoute" (click)="switchLanguage('de')">Deutsch</a>
+        </div>
       </li>
     </ul>
   </div>

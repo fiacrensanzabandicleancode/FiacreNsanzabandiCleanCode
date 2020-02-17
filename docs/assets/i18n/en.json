@@ -4,27 +4,29 @@
     "personalProjects": "Personal projects",
     "hobbies": "Hobbies",
     "developmentProgress": "Development in progress ...",
-
     "home.presentation": "Welcome to my home page.<br>Born in Burundi, passionate about my job and other things ..<br>Feel free to surf on this application to discover my job, my passions and my projects ..",
-    
     "cv.skillsOverview": "My skills overview",
     "cv.pdf": "Curriculum vitae",
     "cv.pdf.show.button.text": "Show PDF",
     "cv.pdf.download": "Download",
     "cv.pdf.download.message": "In development. Soon available.",
-    
     "personalProject.budget": "Budget",
     "personalProject.euros": "euros",
     "personalProject.description": "Description",
+    "personalProject.description.jewe.na.bobo.1": "This project is a philanthropic project for Burundi. I have always wondered how to participate in the economy of my homeland and finally why not to start with my family and my relatives who live there. ",
+    "personalProject.description.jewe.na.bobo.2": "So I initialized this micro-investment project, which allows me to lend a little money according to the projects that my relatives present to me.",
+    "personalProject.description.jewe.na.bobo.3": "The goal is not to make a profit but to allow my relatives to invest in their projects and to reimburse me monthly until I recover the amount initially invested. ",
+    "personalProject.description.jewe.na.bobo.4": "The application mainly allows to give visibility on the loans to myself and to the different people involved in the project.",
+    "personalProject.description.jewe.na.bobo.5": "To test the application, log in with the code name \"test\"and the password \"123\":",
+    "personalProject.description.jewe.na.bobo.6": "https://jewenabobo.site",
     "personalProject.description.ndiko.ndaklinkoda": "This project is a philanthropic project for Burundi that I am very keen on that I am developing. You will know more soon.",
     "personalProject.description.kubaho.neza.residence": "This project is a philanthropic project for Burundi that I am very keen on that I am developing. You will know more soon.",
     "personalProject.description.ycea.green.1": "I am a member of this association and a techleader developer of its website. If you want to know more, do not hesitate to visit us on ",
     "personalProject.description.ycea.green.2.site": "https://ycea-green.site",
-
     "hobbies.music": "Music",
     "hobbies.sport": "Sport",
     "hobbies.gardening": "Gardening",
     "hobbies.music.description": "I'm an amator musician and have some written texts that I would like to produce.",
     "hobbies.sport.description": "My prefered sport is basketball. I do other sports as well: Crossfit, running, swimming, bicking, football and so on. I love this idea that says \"to do every sport that you are given, is good for health.\"",
-    "hobbies.gardening.description": "Since I saw the movie: \"Demain\" by Cyril Dion and Mélanie Laurent, I think that agriculture is the key for the survival of the humanity. So I'm training my self and keep a garden at home." 
+    "hobbies.gardening.description": "Since I saw the movie: \"Demain\" by Cyril Dion and Mélanie Laurent, I think that agriculture is the key for the survival of the humanity. So I'm training my self and keep a garden at home."
 }

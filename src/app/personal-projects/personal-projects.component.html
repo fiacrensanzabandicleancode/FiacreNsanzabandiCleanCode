@@ -1,6 +1,44 @@
+<!-- Update my personal projects and add in this, projects that are already created.-->
+
 <div>
   <br>
   <div class="accordion" id="accordionExample">
+
+    <div class="card">
+      <div class="card-header btn row list-content-title" id="headingOne" data-toggle="collapse"
+        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <div class="row">
+          <div class="text-justify col">JeweNaBobo</div>
+          <div class="text-right col">
+            <fa name="angle-double-down" animation="spin"></fa>
+            <fa name="angle-double-up"></fa>
+          </div>
+        </div>
+      </div>
+      <div id="collapseOne" class="collapse show" arialabelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+          <p>
+            {{ 'personalProject.description' | translate }}:
+            {{ 'personalProject.description.jewe.na.bobo.1' | translate  }}
+            <br>
+            {{ 'personalProject.description.jewe.na.bobo.2' | translate  }}
+            <br>
+            {{ 'personalProject.description.jewe.na.bobo.3' | translate  }}
+            <br>
+            {{ 'personalProject.description.jewe.na.bobo.4' | translate  }}
+            <br>
+            {{ 'personalProject.description.jewe.na.bobo.5' | translate  }}
+            <a href="https://jewenabobo.site">
+              {{ 'personalProject.description.jewe.na.bobo.6' | translate  }}
+            </a>
+          </p>
+          <p>
+            {{ 'developmentProgress' | translate }}
+          </p>
+        </div>
+      </div>
+    </div>
+
     <div class="card">
       <div class="card-header btn row list-content-title" id="headingOne" data-toggle="collapse"
         data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -12,8 +50,7 @@
           </div>
         </div>
       </div>
-
-      <div id="collapseOne" class="collapse show" arialabelledby="headingOne" data-parent="#accordionExample">
+      <div id="collapseOne" class="collapse" arialabelledby="headingOne" data-parent="#accordionExample">
         <div class="card-body">
           <p>
             {{ 'personalProject.description' | translate }}:
@@ -25,6 +62,7 @@
         </div>
       </div>
     </div>
+
     <div class="card">
       <div class="card-header btn row list-content-title" id="headingTwo" data-toggle="collapse"
         data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
@@ -48,31 +86,34 @@
         </div>
       </div>
     </div>
-    <div class="card">
-      <div class="card-header btn row list-content-title" id="headingThree" data-toggle="collapse"
-        data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-        <div class="row">
-          <div class="text-justify col">YCEA green</div>
-          <div class="text-right col">
-            <fa name="angle-double-down" animation="spin"></fa>
-            <fa name="angle-double-up"></fa>
+
+    <!--
+      <div class="card">
+        <div class="card-header btn row list-content-title" id="headingThree" data-toggle="collapse"
+          data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+          <div class="row">
+            <div class="text-justify col">YCEA green</div>
+            <div class="text-right col">
+              <fa name="angle-double-down" animation="spin"></fa>
+              <fa name="angle-double-up"></fa>
+            </div>
+          </div>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">
+            <p>
+              {{ 'personalProject.description' | translate }}:
+              {{ 'personalProject.description.ycea.green.1' | translate  }}
+              <a href="https://ycea-green.site">
+                {{ 'personalProject.description.ycea.green.2.site' | translate  }}
+              </a>
+            </p>
+            <p>
+              {{ 'developmentProgress' | translate }}
+            </p>
           </div>
         </div>
       </div>
-      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-        <div class="card-body">
-          <p>
-            {{ 'personalProject.description' | translate }}:
-            {{ 'personalProject.description.ycea.green.1' | translate  }}
-            <a href="https://ycea-green.site">
-              {{ 'personalProject.description.ycea.green.2.site' | translate  }}
-            </a>
-          </p>
-          <p>
-            {{ 'developmentProgress' | translate }}
-          </p>
-        </div>
-      </div>
-    </div>
+    -->
   </div>
 </div>

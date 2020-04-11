@@ -5,11 +5,13 @@
     "hobbies": "Hobbys",
     "developmentProgress": "Entwicklung läuft ...",
     "home.presentation": "Willkommen auf meiner Homepage.<br>Geboren in Burundi, fasziniert an meinem Job und anderen Dingen.<br>Surfen Sie auf dieser Seite und entdecken Sie meinen Job, meine Leidenschaften und meine Projekte.",
+
     "cv.skillsOverview": "Übersicht meiner Fähigkeiten",
     "cv.pdf": "Lebenslauf",
     "cv.pdf.show.button.text": "PDF anzeigen",
     "cv.pdf.download": "Download",
     "cv.pdf.download.message": "In Entwicklung. Bald verfügbar.",
+
     "personalProject.budget": "Haushalt",
     "personalProject.euros": "Euro",
     "personalProject.description": "Beschreibung",
@@ -21,8 +23,9 @@
     "personalProject.description.jewe.na.bobo.6": "https://jewenabobo.site",
     "personalProject.description.ndiko.ndaklinkoda": "Dieses Projekt ist ein wohltätiges Projekt für Burundi. Sie werden hier bald mehr Informationen sehen.",
     "personalProject.description.kubaho.neza.residence": "Dieses Projekt ist ein wohltätiges Projekt für Burundi. Sie werden hier bald mehr Informationen sehen.",
-    "personalProject.description.ycea.green.1": "Ich bin ein führender Entwickler der Website dieses Vereins, zu dem ich gehöre. Wenn Sie mehr wissen möchten, besuchen Sie unsere Website ",
+    "personalProject.description.ycea.green.1": "Ich bin der Entwickler der Website dieses Vereins, zu dem ich gehöre. Wenn Sie mehr wissen möchten, besuchen Sie unsere Website ",
     "personalProject.description.ycea.green.2.site": "https://ycea-green.site",
+
     "hobbies.music": "Musik",
     "hobbies.sport": "Sport",
     "hobbies.gardening": "Gartenarbeit",

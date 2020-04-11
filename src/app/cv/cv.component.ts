@@ -7,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CvComponent implements OnInit {
 
-  cvPdfUrl: string = "assets/files/fiacreNsanzabandiCV.pdf";
-  isPdfVisible: boolean = true;
-  isDownloadMessageVisible: boolean = false;
+  cvPdfUrl = 'assets/files/fiacreNsanzabandiCV.pdf';
+  isPdfVisible = true;
+  isDownloadMessageVisible = false;
 
   constructor() { }
 
@@ -17,12 +17,12 @@ export class CvComponent implements OnInit {
   }
 
   setCvPdfUrl() {
-    if (this.cvPdfUrl == "") {
+    if (this.cvPdfUrl === '') {
       this.isPdfVisible = true;
-      this.cvPdfUrl = "assets/files/fiacreNsanzabandiCV.pdf";
+      this.cvPdfUrl = 'assets/files/fiacreNsanzabandiCV.pdf';
     } else {
       this.isPdfVisible = false;
-      this.cvPdfUrl = "";
+      this.cvPdfUrl = '';
     }
   }
 

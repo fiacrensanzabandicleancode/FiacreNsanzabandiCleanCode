@@ -8,8 +8,8 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class HeaderComponent implements OnInit {
 
-  actualRoute: string = "/home";
-  actualLanguage: string = "Deutsch"
+  actualRoute = '/home';
+  actualLanguage = 'Deutsch';
 
   constructor(private translateService: TranslateService) {
     translateService.setDefaultLang('de');
@@ -17,7 +17,7 @@ export class HeaderComponent implements OnInit {
 
   /**
    * Swittches the language.
-   * @param language
+   * @param language the language to set
    */
   switchLanguage(language: string) {
     this.translateService.use(language);
@@ -26,20 +26,20 @@ export class HeaderComponent implements OnInit {
 
   /**
    * Selects the language to print.
-   * @param language 
+   * @param language the language to set
    */
   selectTheLanguageToPrint(language: string) {
     switch (language) {
-      case "en": {
-        this.actualLanguage = "English";
+      case 'en': {
+        this.actualLanguage = 'English';
         break;
       }
-      case "fr": {
-        this.actualLanguage = "Français";
+      case 'fr': {
+        this.actualLanguage = 'Français';
         break;
       }
-      case "de": {
-        this.actualLanguage = "Deutsch";
+      case 'de': {
+        this.actualLanguage = 'Deutsch';
         break;
       }
     }
@@ -50,7 +50,7 @@ export class HeaderComponent implements OnInit {
 
   /**
    * Sets the actual root.
-   * @param actualRoute
+   * @param actualRoute the actual root
    */
   setActualRoute(actualRoute: string) {
     this.actualRoute = actualRoute;

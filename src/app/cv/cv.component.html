@@ -1,5 +1,6 @@
 <div>
   <br>
+  <!--
   <div class="card">
     <div class="card-body">
       <h5 class="card-title list-content-title">{{ 'cv.skillsOverview' | translate }}</h5>
@@ -7,11 +8,12 @@
     </div>
   </div>
   <br>
+  -->
   <div class="card">
     <div class="card-body">
       <h5 class="card-title list-content-title">{{ 'cv.pdf' | translate }}</h5>
       <pdf-viewer [src]="cvPdfUrl"></pdf-viewer>
-      <a [href]="'assets/files/fiacreNsanzabandiCV.pdf'" class="btn btn-primary" role="button">
+      <a [href]="cvPdfUrl" class="btn btn-primary" role="button">
         <fa name="cloud-download"></fa>
         {{ 'cv.pdf.download' | translate }}
       </a>

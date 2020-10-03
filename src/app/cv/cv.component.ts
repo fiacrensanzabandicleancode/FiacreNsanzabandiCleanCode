@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CvComponent implements OnInit {
 
-  cvPdfUrl = 'assets/files/CV-Europass-20200501-Nsanzabandi-EN.pdf';
+  cvPdfUrl = 'assets/files/CV-Europass-20201003-Nsanzabandi-EN.pdf';
   isPdfVisible = true;
   isDownloadMessageVisible = false;
 

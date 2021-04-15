@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
+import { Subscription } from 'rxjs';
+import { ActualRouteKeeperService } from '../service/actual-route-keeper.service';
 
 @Component({
   selector: 'app-header',
@@ -10,8 +13,9 @@ export class HeaderComponent implements OnInit {
 
   actualRoute = '/home';
   actualLanguage = 'Deutsch';
+  subscription: Subscription;
 
-  constructor(private translateService: TranslateService) {
+  constructor(private translateService: TranslateService, private router: Router, private actualRouteKeeperService: ActualRouteKeeperService) {
     translateService.setDefaultLang('de');
   }
 
@@ -21,7 +25,12 @@ export class HeaderComponent implements OnInit {
    */
   switchLanguage(language: string) {
     this.translateService.use(language);
-    this.selectTheLanguageToPrint(language);
+    this.updateActualRoute();
+    //this.selectTheLanguageToPrint(language);
+  }
+
+  updateActualRoute() {
+    this.subscription = this.actualRouteKeeperService.actualRouteObservable.subscribe(route => this.actualRoute = route);
   }
 
   /**
@@ -29,6 +38,7 @@ export class HeaderComponent implements OnInit {
    * @param language the language to set
    */
   selectTheLanguageToPrint(language: string) {
+    this.subscription = this.actualRouteKeeperService.actualRouteObservable.subscribe(route => this.actualRoute = route);
     switch (language) {
       case 'en': {
         this.actualLanguage = 'English';
@@ -48,11 +58,13 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
-  /**
-   * Sets the actual root.
-   * @param actualRoute the actual root
-   */
   setActualRoute(actualRoute: string) {
+    this.actualRouteKeeperService.changeRoute(actualRoute);
     this.actualRoute = actualRoute;
   }
+
+  ngOnDestroy() {
+    this.subscription.unsubscribe();
+  }
 }
+

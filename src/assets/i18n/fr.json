@@ -12,6 +12,7 @@
     "cv.pdf.show.button.text": "Afficher le PDF",
     "cv.pdf.download": "Télécharger",
     "cv.pdf.download.message": "En cours de développement. Bientôt disponible.",
+    "cv.file.name": "assets/files/CV-Nsanzabandi-Fiacre.fr.pdf",
 
     "personalProject.budget": "Budget",
     "personalProject.euros": "euros",
@@ -28,6 +29,11 @@
     "personalProject.description.ycea.green.2.site": "https://ycea-green.site",
 
     "hobbies.music": "Musique",
+    "hobbies.music.music1.title": "Ntimuze muhave mutumaramaza",
+    "hobbies.music.music2.title": "Music en cours de production",
+    "hobbies.music.music1.file.name": "../assets/files/ntimuzeMuhaveMutumaramaza.fr_V1.pdf",
+    "hobbies.music.pdf.download": "Télécharger le PDF des informations",
+    "hobbies.music.some.of.my.music": "Voici certains de mes chansons:",
     "hobbies.sport": "Sport",
     "hobbies.gardening": "Jardinage",
     "hobbies.music.description": "Je suis musicien amateur et j'ai quelques textes écrits que j'aimerais produire.",

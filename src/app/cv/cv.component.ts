@@ -7,35 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CvComponent implements OnInit {
 
-  cvPdfUrl = 'assets/files/CV-Europass-20210316-Nsanzabandi-EN.pdf';
-  isPdfVisible = true;
-  isDownloadMessageVisible = false;
-
   constructor() { }
 
-  ngOnInit() {
-  }
-
-  setCvPdfUrl() {
-    if (this.cvPdfUrl === '') {
-      this.isPdfVisible = true;
-      this.cvPdfUrl = 'assets/files/fiacreNsanzabandiCV.pdf';
-    } else {
-      this.isPdfVisible = false;
-      this.cvPdfUrl = '';
-    }
-  }
-
-  deleteCvPdfUrl() {
-    this.isPdfVisible = false;
-  }
-
-  /**
-   * Show the CV PDF download message.
-   * @author fnsanzabandi
-   */
-  showCvPdfDownloadMessage() {
-    this.isDownloadMessageVisible = true;
-  }
+  ngOnInit() { }
 
 }

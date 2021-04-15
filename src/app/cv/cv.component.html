@@ -1,19 +1,10 @@
 <div>
   <br>
-  <!--
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title list-content-title">{{ 'cv.skillsOverview' | translate }}</h5>
-      <img class="irounded img-fluid" src="assets/images/skills.jpg" alt="Fiacre Nsanzabandi skills overview">
-    </div>
-  </div>
-  <br>
-  -->
   <div class="card">
     <div class="card-body">
       <h5 class="card-title list-content-title">{{ 'cv.pdf' | translate }}</h5>
-      <pdf-viewer [src]="cvPdfUrl"></pdf-viewer>
-      <a [href]="cvPdfUrl" class="btn btn-primary" role="button">
+      <pdf-viewer src="{{ 'cv.file.name' | translate }}" ></pdf-viewer>
+      <a href="{{ 'cv.file.name' | translate }}" class="btn btn-primary" role="button">
         <fa name="cloud-download"></fa>
         {{ 'cv.pdf.download' | translate }}
       </a>

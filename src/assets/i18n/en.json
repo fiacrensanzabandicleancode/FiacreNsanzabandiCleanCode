@@ -11,6 +11,7 @@
     "cv.pdf.show.button.text": "Show PDF",
     "cv.pdf.download": "Download",
     "cv.pdf.download.message": "In development. Soon available.",
+    "cv.file.name": "assets/files/CV-Nsanzabandi-Fiacre.en.pdf",
 
     "personalProject.budget": "Budget",
     "personalProject.euros": "euros",
@@ -27,9 +28,15 @@
     "personalProject.description.ycea.green.2.site": "https://ycea-green.site",
 
     "hobbies.music": "Music",
+    "hobbies.music.music1.title": "Ntimuze muhave mutumaramaza",
+    "hobbies.music.music2.title": "Music in production",
+    "hobbies.music.music1.file.name": "../assets/files/ntimuzeMuhaveMutumaramaza.en_V1.pdf",
+    "hobbies.music.pdf.download": "Download the information PDF",
+    "hobbies.music.some.of.my.music": "Here are some of my songs:",
     "hobbies.sport": "Sport",
     "hobbies.gardening": "Gardening",
     "hobbies.music.description": "I'm an amator musician and have some written texts that I would like to produce.",
     "hobbies.sport.description": "My prefered sport is basketball. I do other sports as well: Crossfit, running, swimming, bicking, football and so on. I love this idea that says \"to do every sport that you are given, is good for health.\"",
     "hobbies.gardening.description": "Since I saw the movie: \"Demain\" by Cyril Dion and Mélanie Laurent, I think that agriculture is the key for the survival of the humanity. So I'm training my self and keep a garden at home."
+
 }

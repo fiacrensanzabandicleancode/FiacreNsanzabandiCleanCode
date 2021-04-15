@@ -13,6 +13,7 @@ import { HomeComponent } from './home/home.component';
 import { CvComponent } from './cv/cv.component';
 import { PersonalProjectsComponent } from './personal-projects/personal-projects.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
+import { Music1Component } from './music1/music1.component';
 
 const appRoutes: Routes = [
   { path: '' , component: HomeComponent },
@@ -20,6 +21,7 @@ const appRoutes: Routes = [
   { path: 'cv' , component: CvComponent },
   { path: 'personalProjects' , component: PersonalProjectsComponent },
   { path: 'hobbies' , component: HobbiesComponent },
+  { path: 'hobbies/ntimuze-muhave-mutumaramaza', component: Music1Component },
   { path: '**' , component: HomeComponent }
 ];
 
@@ -34,7 +36,8 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     HomeComponent,
     CvComponent,
     PersonalProjectsComponent,
-    HobbiesComponent
+    HobbiesComponent,
+    Music1Component
   ],
   imports: [
     BrowserModule,

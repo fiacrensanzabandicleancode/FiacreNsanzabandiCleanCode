@@ -26,7 +26,7 @@ export class HeaderComponent implements OnInit {
   switchLanguage(language: string) {
     this.translateService.use(language);
     this.updateActualRoute();
-    //this.selectTheLanguageToPrint(language);
+    this.selectTheLanguageToPrint(language);
   }
 
   updateActualRoute() {

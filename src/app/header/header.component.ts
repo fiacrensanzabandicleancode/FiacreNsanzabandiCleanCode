@@ -38,7 +38,6 @@ export class HeaderComponent implements OnInit {
    * @param language the language to set
    */
   selectTheLanguageToPrint(language: string) {
-    this.subscription = this.actualRouteKeeperService.actualRouteObservable.subscribe(route => this.actualRoute = route);
     switch (language) {
       case 'en': {
         this.actualLanguage = 'English';
@@ -56,6 +55,7 @@ export class HeaderComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.updateActualRoute();
   }
 
   setActualRoute(actualRoute: string) {

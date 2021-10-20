@@ -51,7 +51,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
         deps: [HttpClient]
       }
     }),
-    RouterModule.forRoot(appRoutes),
+    RouterModule.forRoot(appRoutes, { relativeLinkResolution: 'legacy' }),
     FontAwesomeModule
   ],
   providers: [TranslateService],

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faCloudDownloadAlt } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-cv',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cv.component.css']
 })
 export class CvComponent implements OnInit {
+
+  faCloudDownloadAlt = faCloudDownloadAlt;
 
   constructor() { }
 

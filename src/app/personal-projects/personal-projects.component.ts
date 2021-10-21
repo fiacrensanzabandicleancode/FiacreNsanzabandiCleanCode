@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons';
+
 
 @Component({
   selector: 'app-personal-projects',
@@ -7,6 +9,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PersonalProjectsComponent implements OnInit {
 
+  faAngleDoubleDown = faAngleDoubleDown;
+  
   constructor() { }
 
   ngOnInit() {

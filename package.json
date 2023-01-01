@@ -30,14 +30,14 @@
     "core-js": "^2.5.4",
     "font-awesome": "^4.7.0",
     "jquery": "^3.4.1",
-    "ng2-pdf-viewer": "^5.2.4",
+    "ng2-pdf-viewer": "^5.3.4",
     "popper.js": "^1.15.0",
     "rxjs": "~6.5.3",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~12.2.10",
+    "@angular-devkit/build-angular": "~15.0.4",
     "@angular/cli": "~12.2.10",
     "@angular/compiler-cli": "~12.2.11",
     "@angular/language-service": "~12.2.11",

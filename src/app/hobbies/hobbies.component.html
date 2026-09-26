@@ -2,36 +2,8 @@
   <br>
   <div class="accordion" id="accordionExample">
     <div class="card">
-      <div class="card-header btn row list-content-title" id="headingOne" data-toggle="collapse" data-target="#collapseOne"
-        aria-expanded="true" aria-controls="collapseOne">
-        <div class="row">
-          <div class="text-justify col">{{ 'hobbies.music' | translate }}</div>
-          <div class="text-right col">
-            <fa-icon [icon]="faAngleDoubleDown" [spin]="true"></fa-icon>
-          </div>
-        </div>
-      </div>
-      <div id="collapseOne" class="collapse show" arialabelledby="headingOne" data-parent="#accordionExample">
-        <div class="card-body">
-          <p>
-            {{ 'hobbies.music.description' | translate }}
-          </p>
-            {{ 'hobbies.music.some.of.my.music' | translate }}
-          <ol>
-            <li>
-              <a routerLink="/hobbies/ntimuze-muhave-mutumaramaza">{{ 'hobbies.music.music1.title' | translate }}</a>
-            </li>
-            <li>
-              {{ 'developmentProgress' | translate }}
-            </li>
-          </ol>
-        </div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-header btn row list-content-title" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo"
-        aria-expanded="true" aria-controls="collapseTwo">
+      <div class="card-header btn row list-content-title" id="headingTwo" data-toggle="collapse" data-target="#sportCollapse"
+        aria-expanded="true" aria-controls="sportCollapse">
         <div class="row">
           <div class="text-justify col">{{ 'hobbies.sport' | translate }}</div>
           <div class="text-right col">
@@ -39,7 +11,7 @@
           </div>
         </div>
       </div>
-      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div id="sportCollapse" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
         <div class="card-body">
           <p>
             {{ 'hobbies.sport.description' | translate }}
@@ -52,8 +24,8 @@
     </div>
 
     <div class="card">
-      <div class="card-header btn row list-content-title" id="headingThree" data-toggle="collapse" data-target="#collapseThree"
-        aria-expanded="true" aria-controls="collapseThree">
+      <div class="card-header btn row list-content-title" id="headingThree" data-toggle="collapse" data-target="#gardeningCollapse"
+        aria-expanded="true" aria-controls="gardeningCollapse">
         <div class="row">
           <div class="text-justify col">{{ 'hobbies.gardening' | translate }}</div>
           <div class="text-right col">
@@ -61,7 +33,7 @@
           </div>
         </div>
       </div>
-      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div id="gardeningCollapse" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
         <div class="card-body">
           <p>
             {{ 'hobbies.gardening.description' | translate }}

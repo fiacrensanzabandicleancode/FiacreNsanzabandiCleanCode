@@ -29,6 +29,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Release Info
 
  Run `npx ng build --configuration production`
+
  Copy all the dist content in docs. This docs folder is used by github pages.
+ 
  Delete the 404.html in the docs folder. Copy the new index.html file and rename it into 404.html. This is also needed by github pages.
+
  Push to get the docs updated. The changes should be automaticaly visible on the website.
